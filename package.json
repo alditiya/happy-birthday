@@ -12,9 +12,7 @@
     "watch:parcel": "parcel src/index.html",
     "build:parcel": "parcel build src/index.html",
     "init-index-local": "node builder/init.js --local",
-    "init-index-remote": "node builder/init.js --remote",
-    "watch": "npm-run-all init-index-local watch:parcel",
-    "build": "npm-run-all init-index-remote build:parcel"
+    "watch": "npm-run-all init-index-local watch:parcel"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.6.2",
